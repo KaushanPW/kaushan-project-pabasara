@@ -1,0 +1,108 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    height: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #28a745;
+}
+
+nav ul li.active a {
+    color: #fff;
+    background-color: #21e831;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+ 
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.auth-buttons .btn {
+    background-color: #f20707;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.auth-buttons .btn:hover {
+    background-color: greenyellow;
+}
+
+.auth-buttons form {
+    margin: 0;
+}
+
+.auth-buttons button {
+    background: none;
+    border: none;
+    font: inherit;
+}
+
+
+
+.login-register {
+    display: flex;
+    gap: 10px;
+}
+
+.login-register .btn {
+    background-color: #28a745;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.login-register .btn:hover {
+    background-color: greenyellow;
+}

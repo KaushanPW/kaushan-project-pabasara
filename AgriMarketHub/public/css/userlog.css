@@ -1,0 +1,144 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:rgb(212, 215, 206) ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/vegetarian-border-of-fresh-wet-vegetables-and-fruits-against-a-shining-green-bokeh-background-healthy-and-vitamin-nutrition-photo.jpeg');
+}
+/* Form container styling */
+form {
+    border: 3px solid green; 
+    border-radius: 10px; 
+    padding: 20px; 
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+
+
+/* Login container */
+.login-container {
+    background:white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Title */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+
+/* Input fields */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+/* Input fields */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.input-group i {
+   font-size: large;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #2575fc;
+}
+
+/* Forgot password link */
+a {
+    text-decoration: none;
+    color: #2575fc;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Login button */
+.btn-login {
+    background:green;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background: greenyellow;
+}
+
+.social-icons {
+    display: flex;  
+    justify-content: center; 
+    gap: 20px; 
+}
+
+
+.social-icons a {
+    font-size: 36px; 
+    text-decoration: none; 
+    color: #333; 
+    border-radius: 50%; 
+    padding: 15px; 
+    transition: all 0.3s ease; 
+}
+
+
+.social-icons a:hover {
+    background-color: greenyellow; 
+    color: white; 
+}
+
+/* css for javascript */
+
+.error-text {
+    color: red;
+    font-size: 13px;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.error-text i {
+    font-size: 16px;
+}
+
+

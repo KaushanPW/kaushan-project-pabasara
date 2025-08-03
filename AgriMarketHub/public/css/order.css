@@ -1,0 +1,98 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color:white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    
+    
+   
+  }
+
+  .form-section {
+    flex: 1 1 500px;
+    padding: 30px;
+  }
+
+  .form-section h2 {
+    margin-bottom: 20px;
+    color: #2ecc71;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 10px 10px 40px; 
+  background-color: #fafafa;
+  position: relative;
+}
+
+.input-group i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(113, 114, 110);
+  font-size: 18px;
+  pointer-events: none;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.input-group textarea {
+  resize: vertical;
+}
+
+
+    .form-section button {
+      background-color: #2ecc71;
+      color: #fff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .form-section button:hover {
+      background-color: greenyellow;
+    }
+
+    .image-section {
+      flex: 1 1 300px;
+      background-image: url('/order-img/Fruit.png'); 
+      background-size: cover;
+      background-position: center;
+      min-height: 200px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .image-section {
+        min-height: 200px;
+        
+      }
+    }
+
+    
